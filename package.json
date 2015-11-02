@@ -1,0 +1,26 @@
+{
+  "name": "pool-redis-sentinel",
+  "description": "Pooled redis connections from Sentinels for Node.JS",
+  "version": "0.0.1",
+  "author": {
+    "name": "Pankaj Bhatt",
+    "email": "panbhatt@gmail.com"
+  },
+  "keywords": [
+    "pool",
+    "redis",
+    "sentinel"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/panbhatt/node-redis-pool-sentinel"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "redis": "*",
+    "redis-sentinel": "^0.3.3"
+  }
+}
